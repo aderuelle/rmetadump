@@ -1,0 +1,4 @@
+# https://stackoverflow.com/questions/66523526/cant-find-crate-rustc-even-with-rustc-private
+[toolchain]
+channel = "nightly"
+components = [ "rustfmt", "rustc-dev", "rust-src", "llvm-tools-preview" ]
